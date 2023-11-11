@@ -1,0 +1,54 @@
+#app {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.chat-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 250px;
+    height: 32px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.btn-default {
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.msg-wrapper {
+    margin: 12px 0;
+}
+
+.msg-title {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.msg-box {
+    padding: 4px 24px;
+    border-radius: 8px;
+    color: white
+}
+
+.msg-mahmuda {
+    background-color: rgb(96, 96, 240);
+}
+
+.msg-nabila {
+    background-color: rgb(8, 140, 100);
+}
